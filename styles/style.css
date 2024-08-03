@@ -50,17 +50,21 @@ main li {
 
 .bio {
   margin: 1.13rem 0rem;
+  text-align: justify;
 }
 
 .cidade {
-  text-decoration: underline;
+  color: #adefd1;
+  font-size: 1.5rem;
 }
 
 .filmes, .musicas {
   background-color: #adefd1;
   color: #00203f;
+  box-shadow: 0px 0px 15px 0px #adefd1;
   padding: 0.6rem 1rem 1rem 1rem;
   height: 100%;
+  border-radius: 20px;
 }
 
 footer {
@@ -70,8 +74,9 @@ footer {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #D9D9D9;
-  color: #000;
+  background-color: #000;
+  color: #fff;
+  box-shadow: 0px 0px 5px 0px #fff;
   padding: 1.4rem;
 }
 
